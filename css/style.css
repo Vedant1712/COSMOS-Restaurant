@@ -1,0 +1,9 @@
+#Restaurant_Name{
+	display: inline-block;
+	float: left;
+}
+nav{
+	display: inline-block;
+	clear: all;
+	float: right;
+}
