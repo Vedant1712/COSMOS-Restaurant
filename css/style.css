@@ -1,9 +1,46 @@
+body{
+	background-image: url(../images/main_background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+}
 #Restaurant_Name{
 	display: inline-block;
 	float: left;
+	font-size: 40px;
+	color: #ffffff;
+}
+header{
+	margin: 1%;
+	padding: 1%;
 }
 nav{
 	display: inline-block;
 	clear: all;
 	float: right;
+	transform: translateY(50%);
+}
+nav a{
+	margin-right: 5px;
+	padding: 3px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #e0cdbc;
+}
+.active{
+	color: #d6813c;
+}
+#background_change{
+	font-size: 60px;
+	display: inline-block;
+	padding: 3px;
+	position:absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%);
+}
+#background_change a{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 20px;
 }
