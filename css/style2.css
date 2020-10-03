@@ -3,7 +3,6 @@
   font-family: 'Poppins', sans-serif;
   color: #1ad1ff;
 }
-
 .box{
   border: 3px solid #bfbfbf;
   padding: 20px;
@@ -12,11 +11,9 @@
   width: 40%;
   float: left;
 }
-
 .same-color{
   color: #1ad1ff;
 }
-
 #Restaurant_Name{
   font-size: 40px;
 }
@@ -118,4 +115,10 @@ nav li a{
 .bottom:hover{
   box-shadow: 0 0 20px 0 rgb(26, 209, 255);
   transition: 0.3s ease-in;
+}
+@media screen and (max-width: 900px) {
+  .box, .box1 {
+    width: 100%;
+    margin-left: 0;
+  }
 }
