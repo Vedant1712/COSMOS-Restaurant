@@ -1,5 +1,5 @@
 body{
-	background: #ffffff;
+	background-image: url(../images/main_background.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	transition: all 0.5s;
@@ -33,4 +33,13 @@ nav a{
 }
 .active{
 	color: #d6813c;
+}
+h1{
+	color: #ffffff;
+	text-decoration: underline;
+	text-align: center;
+}
+.menu_item{
+	display: inline-block;
+	background-color: #ffffff;
 }
